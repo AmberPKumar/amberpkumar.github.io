@@ -219,7 +219,7 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "avenir", Arial, sans-serif;
+  font-family: 'proxima-nova', sans-serif;
   font-weight: 400;
   margin: 10px 0
 }
@@ -1768,7 +1768,7 @@ h3 {padding: 0; margin: 0;}
 /*alumni networking*/
 
 .snip1344 {
-  font-family: 'avenir', sans-serif;
+  font-family: 'proxima-nova', sans-serif;
   position: relative;
   float: left;
   overflow: hidden;
@@ -1850,7 +1850,7 @@ h3 {padding: 0; margin: 0;}
 /*alumni lineup*/
 
 .snip1356 {
-  font-family: 'avenir', helvetica, sans-serif;
+  font-family: 'proxima-nova', sans-serif;
   position: relative;
   float: left;
   overflow: hidden;
