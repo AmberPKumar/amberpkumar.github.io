@@ -13,7 +13,7 @@ $( document ).ready( function() {
 
 		var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 		//Callout Content
-		var contentString = 'Art Annex';
+		var contentString = 'Art Annex, UC Davis, CA';
 		//Set window width + content
 		var infowindow = new google.maps.InfoWindow({
 			content: contentString,
