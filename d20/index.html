@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Why is Amber upset?</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+<h1> Why is Amber Upset?</h1>
+  <script src="js/new.js"></script>
+
+  <div id="app">
+    <div class="content" @click="roll">
+      <div :class="[
+        'die',
+        { rolling: isRolling }
+      ]" :data-face="currentFaceIndex + 1">
+        <figure v-for="n in 20" :class="[
+          'face',
+          'face-' + n
+        ]">
+          <span class="face-text">
+          {{ faces[n - 1] }}
+        </span>
+        </figure>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="js/index.js"></script>
+  <script src="js/new.js"></script>
+
+
+
+
+</body>
+
+</html>
