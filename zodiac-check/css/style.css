@@ -1,104 +1,103 @@
 * {
-    font-family: 'Avenir', sans-serif;
+  font-family: 'Avenir', sans-serif;
 }
 
 body {
-    background: #eac1d9;
+  background: #eac1d9;
 }
 
 .container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 6px;
-    padding-right: 6px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 #header {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 10px;
-    font-size: 30px
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+  font-size: 30px
 }
 
 .form {
-    height: 500px;
-    width: 50%;
-    /* background: #dddde5; */
-    margin: 0 auto;
+  height: 500px;
+  width: 50%;
+  /* background: #dddde5; */
+  margin: 0 auto;
 }
 
 .input-data {
-    margin: 0 auto;
-    height: 500px;
-    width: 250px;
-    text-align: center;
-    color: black;
-    font-weight: bold;
-    padding: 10px;
+  margin: 0 auto;
+  height: 500px;
+  width: 250px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
 }
 
-.input-data input,
-select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solidblack;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-size: 18px
+.input-data input, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solidblack;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 18px
 }
 
 #submitBtn {
-    width: 100%;
-    background: purple;
-    border: 2px solid #ccc;
-    color: white;
-    outline-color: #ccc;
-    padding: 14px 40px;
-    border-radius: 10px;
-    font-size: 18px
+  width: 100%;
+  background: purple;
+  border: 2px solid #ccc;
+  color: white;
+  outline-color: #ccc;
+  padding: 14px 40px;
+  border-radius: 10px;
+  font-size: 18px
 }
 
 #submitBtn:hover {
-    background: lavender;
-    color: black;
-    outline-color: #ccc;
+  background: lavender;
+  color: black;
+  outline-color: #ccc;
 }
 
 #submitBtn {
-    -webkit-transition-duration: 0.4s;
-    /* Safari */
-    transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
 }
 
 #discovery {
-    color: grey;
-    text-align: center;
-    padding-top: 40px;
-    font-size: 30px
+  color: grey;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 30px
 }
 
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {
-    .form {
-        width: 100%;
-    }
+  .form {
+    width: 100%;
+  }
 }
 
-hr{
+hr {
   width: 80%;
   border: 2px dotted;
-  border-style: none none dotted; 
-  color: #fff; 
+  border-style: none none dotted;
+  color: ;
   background-color: #fff;
 }
 
 footer {
-    color: black;
-    text-align: center;
-    font-size: 15px
+  color: black;
+  text-align: center;
+  font-size: 15px
 }
