@@ -10,7 +10,7 @@
 * ======================================================= */
 body {
   font-family: "avenir", sans-serif;
-  font-weight: 300;
+  font-weight: 350;
   font-size: 16px;
   line-height: 1.7;
   color: black;
@@ -46,13 +46,13 @@ body {
 }
 
 a {
-  color: hotpink;
+  color: #848484;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: hotpink;
+  color: #848484;
   outline: none;
   text-decoration: none;
 }
@@ -70,17 +70,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: hotpink;
+  background: #848484;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: hotpink;
+  background: #848484;
 }
 
 ::selection {
   color: #fff;
-  background: hotpink;
+  background: #848484;
 }
 
 .fh5co-nav {
@@ -179,7 +179,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: transparent !important;
 }
 .fh5co-nav .menu-2 li button:hover i, .fh5co-nav .menu-2 li button:focus i {
-  color: hotpink;
+  color: #848484;
 }
 .fh5co-nav ul {
   padding: 0;
@@ -266,7 +266,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
 }
 .fh5co-nav ul li.active > a {
-  color: hotpink !important;
+  color: #848484 !important;
 }
 .fh5co-nav ul li .form-group {
   border: 1px solid red;
@@ -304,7 +304,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 30px;
 }
 .fh5co-staff .role {
-  color: hotpink;
+  color: #848484;
   margin-bottom: 30px;
   font-weight: normal;
   display: block;
@@ -328,7 +328,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: hotpink;
+  color: #848484;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -347,7 +347,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 .fh5co-contact-info ul li:before {
-  color: hotpink;
+  color: #848484;
   position: absolute;
   left: 0;
   top: .05em;
@@ -414,7 +414,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .feature-center .icon {
   width: 90px;
   height: 90px;
-  background: hotpink;
+  background: #848484;
   display: table;
   text-align: center;
   margin-bottom: 30px;
@@ -510,7 +510,7 @@ h1, h2, h3, h4, h5, h6, figure {
   opacity: 1;
 }
 .work:hover .desc h3 a, .work:focus .desc h3 a {
-  color: hotpink;
+  color: #848484;
 }
 
 .top-line {
@@ -638,7 +638,7 @@ h1, h2, h3, h4, h5, h6, figure {
   letter-spacing: 1px;
 }
 .author .desc .fh5co-social-icons li a {
-  color: hotpink;
+  color: #848484;
   padding-left: 0;
   padding-right: 10px;
 }
@@ -660,11 +660,11 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
   border-radius: 50px;
-  background: hotpink !important;
+  background: #848484 !important;
 }
 
 #fh5co-started {
-  background: hotpink;
+  background: #848484;
 }
 #fh5co-started .fh5co-heading {
   margin-bottom: 20px !important;
@@ -845,7 +845,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 10px 6px;
   line-height: 0;
   font-size: 11px;
-  background: hotpink;
+  background: #848484;
   color: white;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1063,9 +1063,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .btn-primary {
-  background: hotpink;
+  background: #848484;
   color: #fff;
-  border: 2px solid hotpink;
+  border: 2px solid #848484;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: black !important;
@@ -1073,11 +1073,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: hotpink;
-  border: 2px solid hotpink;
+  color: #848484;
+  border: 2px solid #848484;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: hotpink;
+  background: #848484;
   color: #fff;
 }
 
@@ -1207,7 +1207,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: hotpink;
+  border-color: #848484;
 }
 
 .row-pt-md {
